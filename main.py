@@ -3,8 +3,8 @@ def parser(numbers: str) -> list:
 
 
 def is_arithmetic_sequence(numbers: list) -> bool:
-    difference = numbers[1] - numbers[0] #2
-    for num in range(1, len(numbers)-1): #7.
+    difference = numbers[1] - numbers[0]
+    for num in range(1, len(numbers)-1):
         return True
 
 
